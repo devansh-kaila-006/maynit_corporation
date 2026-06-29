@@ -1,0 +1,6 @@
+{
+  "name": "Maynit Corporation",
+  "description": "Enterprise consulting, ServiceNow implementation, Governance, Risk & Compliance (GRC), and global workforce solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
