@@ -96,7 +96,7 @@ export default function LeadershipTab({ setActiveTab }: LeadershipTabProps) {
 
             <button 
               onClick={() => setActiveTab('contact')}
-              className="w-full rounded-xl bg-slate-900 py-3 text-xs font-bold text-white hover:bg-slate-800 transition-colors shadow-md"
+              className="w-full rounded-xl bg-blue-600 py-3 text-xs font-semibold text-white hover:bg-blue-700 transition-all shadow-sm"
             >
               Request Leadership Meeting
             </button>
@@ -175,17 +175,17 @@ export default function LeadershipTab({ setActiveTab }: LeadershipTabProps) {
           </div>
 
           {/* Call to Action to GRC Advisor */}
-          <div className="rounded-3xl border border-slate-200 bg-slate-900 p-6 text-white flex flex-col md:flex-row justify-between items-center gap-4 shadow-xl">
+          <div className="rounded-3xl border border-blue-100/60 bg-gradient-to-br from-blue-50/40 via-white to-slate-50/40 p-6 text-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 shadow-sm">
             <div className="space-y-1">
-              <span className="text-[10px] font-bold text-blue-400 uppercase tracking-widest block">Consultation Workshop</span>
-              <h4 className="text-sm font-bold">Deploy Handa's Strategic ServiceNow Delivery Framework</h4>
-              <p className="text-xs text-slate-300">Run our smart interactive digital transformation planner for immediate insights.</p>
+              <span className="text-[10px] font-bold text-blue-600 uppercase tracking-widest block">Consultation Workshop</span>
+              <h4 className="text-sm font-bold text-slate-900">Deploy Strategic ServiceNow Delivery Framework</h4>
+              <p className="text-xs text-slate-500">Connect with our team to map out your custom ServiceNow and talent strategy.</p>
             </div>
             <button 
-              onClick={() => setActiveTab('advisor')}
-              className="rounded-xl bg-blue-600 px-5 py-2.5 text-xs font-bold text-white hover:bg-blue-700 transition-colors shrink-0 shadow-md"
+              onClick={() => setActiveTab('contact')}
+              className="rounded-xl bg-blue-600 px-5 py-2.5 text-xs font-semibold text-white hover:bg-blue-700 transition-all shrink-0 shadow-sm"
             >
-              Analyze ServiceNow Portfolio
+              Request Consultation
             </button>
           </div>
 

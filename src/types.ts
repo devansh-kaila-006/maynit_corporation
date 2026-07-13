@@ -1,4 +1,4 @@
-export type ActiveTab = 'home' | 'servicenow' | 'staffing' | 'leadership' | 'advisor' | 'contact';
+export type ActiveTab = 'home' | 'servicenow' | 'staffing' | 'leadership' | 'contact';
 
 export interface ServiceNowModule {
   id: string;

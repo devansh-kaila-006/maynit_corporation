@@ -5,7 +5,6 @@ import Hero from './components/Hero';
 import ServiceNowTab from './components/ServiceNowTab';
 import StaffingTab from './components/StaffingTab';
 import LeadershipTab from './components/LeadershipTab';
-import AdvisorTab from './components/AdvisorTab';
 import ContactTab from './components/ContactTab';
 import { ActiveTab } from './types';
 
@@ -24,7 +23,7 @@ export default function App() {
         )}
 
         {activeTab === 'servicenow' && (
-          <ServiceNowTab onPlanStrategy={() => setActiveTab('advisor')} />
+          <ServiceNowTab onPlanStrategy={() => setActiveTab('contact')} />
         )}
 
         {activeTab === 'staffing' && (
@@ -33,10 +32,6 @@ export default function App() {
 
         {activeTab === 'leadership' && (
           <LeadershipTab setActiveTab={setActiveTab} />
-        )}
-
-        {activeTab === 'advisor' && (
-          <AdvisorTab />
         )}
 
         {activeTab === 'contact' && (

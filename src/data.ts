@@ -284,8 +284,8 @@ export const FAQS = [
     answer: 'They are perfectly complementary. As co-founder Ashwani Handa outlines, digital transformation fails without the right talent. Our Consulting branch designs your enterprise ServiceNow or GRC architecture, while our Staffing branch (Executive Search, Permanent Placement, Contract Staffing) provides certified experts to implement and run those solutions long-term.'
   },
   {
-    question: 'How does the AI Digital Transformation & GRC Advisor work?',
-    answer: 'The Advisor is a smart consultation tool powered by Google Gemini. It evaluates your current industry, systems, target frameworks (like SOX or HIPAA), and operational challenges. It then crafts a custom advisory recommendation, prioritized ServiceNow modules, and phase-by-phase implementation blueprints modeled on Maynit’s global delivery standards.'
+    question: 'How does Maynit manage ServiceNow consulting and strategy engagements?',
+    answer: 'We begin with an in-depth portfolio review of your existing systems and target compliance frameworks (such as SOX or HIPAA). Our seasoned architects then design a customized platform roadmap and project charter modeled on Maynit’s global delivery standards, coordinating closely with your internal stakeholders.'
   },
   {
     question: 'Are Maynit’s staffing solutions limited to the United States?',

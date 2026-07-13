@@ -12,36 +12,35 @@ export default function Header({ activeTab, setActiveTab }: HeaderProps) {
     { id: 'servicenow', label: 'ServiceNow Platform' },
     { id: 'staffing', label: 'Staffing & Services' },
     { id: 'leadership', label: 'Leadership' },
-    { id: 'advisor', label: 'AI GRC Advisor' },
     { id: 'contact', label: 'Contact Us' },
   ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/95 backdrop-blur-md shadow-sm" id="main-header">
-      {/* Top Bar for Professional Contact Info */}
-      <div className="bg-slate-900 px-4 py-2 text-xs text-slate-300 md:px-8">
+      {/* Top Bar for Professional Contact Info (Lighter & Soothing) */}
+      <div className="bg-slate-50/80 border-b border-slate-100 px-4 py-2 text-xs text-slate-600 md:px-8">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-2">
           <div className="flex flex-wrap items-center gap-4 sm:gap-6">
             <span className="flex items-center gap-1.5">
-              <Mail className="h-3.5 w-3.5 text-blue-400" />
-              <a href="mailto:contactus@maynitcorporation.com" className="hover:text-white transition-colors">
+              <Mail className="h-3.5 w-3.5 text-blue-500" />
+              <a href="mailto:contactus@maynitcorporation.com" className="hover:text-blue-700 transition-colors font-medium">
                 contactus@maynitcorporation.com
               </a>
             </span>
             <span className="flex items-center gap-1.5">
-              <Phone className="h-3.5 w-3.5 text-blue-400" />
-              <a href="tel:+917355820907" className="hover:text-white transition-colors">
+              <Phone className="h-3.5 w-3.5 text-blue-500" />
+              <a href="tel:+917355820907" className="hover:text-blue-700 transition-colors font-medium">
                 +91 73558 20907
               </a>
             </span>
           </div>
           <div className="hidden items-center gap-4 sm:flex md:gap-6">
-            <span className="flex items-center gap-1.5 text-slate-400">
-              <Calendar className="h-3.5 w-3.5 text-blue-400" />
+            <span className="flex items-center gap-1.5 text-slate-500 font-medium">
+              <Calendar className="h-3.5 w-3.5 text-blue-500" />
               <span>Princeton, New Jersey, USA</span>
             </span>
-            <span className="h-3 w-px bg-slate-700"></span>
-            <span className="font-semibold text-blue-400">Maynit Corp</span>
+            <span className="h-3 w-px bg-slate-200"></span>
+            <span className="font-semibold text-blue-600">Maynit Corp</span>
           </div>
         </div>
       </div>
@@ -55,7 +54,7 @@ export default function Header({ activeTab, setActiveTab }: HeaderProps) {
             onClick={() => setActiveTab('home')}
             id="brand-logo"
           >
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-blue-700 to-slate-800 text-white shadow-md">
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 to-indigo-500 text-white shadow-md">
               <ShieldCheck className="h-6 w-6" />
             </div>
             <div>
@@ -91,11 +90,11 @@ export default function Header({ activeTab, setActiveTab }: HeaderProps) {
           {/* Consultation Fast CTA */}
           <div className="flex items-center gap-2">
             <button
-              onClick={() => setActiveTab('advisor')}
+              onClick={() => setActiveTab('contact')}
               id="header-cta-btn"
               className="rounded-lg bg-blue-600 px-4 py-2 text-xs font-semibold text-white shadow-md shadow-blue-500/10 hover:bg-blue-700 transition-all hover:scale-[1.02]"
             >
-              Consulting Portal
+              Request Proposal
             </button>
           </div>
         </div>
